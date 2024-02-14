@@ -1,0 +1,59 @@
+.why-choose-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 1000px;
+  background-color: #f0f0f0; /* Subtle background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.icon {
+  text-align: center;
+  padding: 20px;
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Consistent rounded corners */
+  margin: 15px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background-color: #fff; /* White background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Soft inner shadow */
+}
+
+.icon:hover {
+  background-color: #e5e5e5; /* Light hover effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* More prominent hover shadow */
+}
+
+.icon svg {
+  width: 70px; /* Increase icon size slightly */
+  height: 70px;
+  fill: #666; /* Adjust color as needed */
+  margin-bottom: 15px;
+}
+
+.icon p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333; /* Adjust text color */
+}
+
+/* Responsiveness (optional) */
+@media (max-width: 768px) {
+  .icon {
+    flex-basis: 48%; /* Ensure even distribution on smaller screens */
+  }
+}
+
+/* Optional enhancements (uncomment to enable) */
+/*
+.icon:nth-child(odd) {
+  background-color: #f7f7f7; /* Alternate background color for odd icons */
+}
+
+.icon:last-child {
+  margin-bottom: 0; /* Remove bottom margin for last icon */
+}
+*/

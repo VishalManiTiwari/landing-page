@@ -1,0 +1,25 @@
+.countdown-timer {
+    background-image: url('background.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Set the height according to your design */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown-content {
+    text-align: center;
+    color: #fff; /* Text color */
+  }
+  
+  .countdown-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .countdown-content p {
+    font-size: 1.5rem;
+  }
+  
+  

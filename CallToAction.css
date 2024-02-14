@@ -1,0 +1,30 @@
+.call-to-action {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .call-to-action h2 {
+    font-size: 2rem;
+    color: #333; /* Heading color */
+  }
+  
+  .call-to-action p {
+    font-size: 1.2rem;
+    color: #666; /* Timer text color */
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action button {
+    background-color: #ff6600; /* Button color */
+    color: #fff; /* Button text color */
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .call-to-action button:hover {
+    background-color: #ff8533; /* Button hover color */
+  }
+  
